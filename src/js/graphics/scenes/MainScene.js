@@ -5,8 +5,6 @@ export default class MainScene extends BaceScene {
 
     constructor() {
         super();
-        this.tick = 0;
-        this.tickSpeed = 2;
         this.init();
     }
 

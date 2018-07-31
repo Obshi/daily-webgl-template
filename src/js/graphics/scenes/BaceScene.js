@@ -8,9 +8,6 @@ export default class BaceScene {
     constructor(canvas) {
         this.scene = new THREE.Scene();
         this.camera = new THREE.PerspectiveCamera(50, innerWidth / innerHeight, 0.1, 1000);
-        this.objects = new Array();
-        this.mixers = new Array();
-        this.clock = new THREE.Clock();
     }
 
     Update(){
